@@ -45,7 +45,7 @@ Esta função é responsável por escolher um amigo aleatoriamente da lista.
 * Atualiza o `innerHTML` do elemento `resultado` para mostrar qual amigo foi sorteado, utilizando o nome correspondente ao `amigoSorteadoIndex`.
 
 ### `mostrarNomeAmigos()`
-Esta função exibe ou atualiza a lista de nomes adicionados na interface.
+Esta função exibe e atualiza a lista de nomes adicionados na interface.
 
 * Primeiro, chama `limparCampoAmigos()` para remover quaisquer nomes exibidos anteriormente.
 * Usa um loop `for...of` para iterar sobre cada `nome` no array `nomes`.
